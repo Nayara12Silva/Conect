@@ -1,5 +1,5 @@
 .card{
-        width: 33.33%; /* Define o tamanho de cada coluna */
         box-sizing: border-box; /* Inclui padding e borda no tamanho total */
         padding: 10px;
-    }
+    
+}

@@ -15,7 +15,7 @@ export const MenuTop= ()=>{
                  <button className="btn_Menu">
                      Meus Grupos
                  </button>
-                 <AccountCircle/>
+                 <AccountCircle style={{ fontSize: 40, color:"#03a01d" }}/>
                </div>
 
         </>

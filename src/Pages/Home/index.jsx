@@ -16,9 +16,7 @@ export function Home(){
                  <MediaCard/>
                  <MediaCard/>
                  <MediaCard/>
-                 <MediaCard/>
-                 <MediaCard/>
-                 <MediaCard/>
+                
              </div>
         </div>
         </>

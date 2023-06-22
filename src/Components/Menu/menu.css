@@ -1,7 +1,6 @@
 .menu{
     width: 40%;
     height: auto;
-    background-color: rgb(211, 11, 88);
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -17,4 +16,19 @@
     color: #fff;
     background: #03a01d;
     
+}
+.btn_login{
+    width: 100%;
+    background-color: rgb(5, 140, 250);
+    border: none;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: #fff;
 }

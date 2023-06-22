@@ -11,7 +11,7 @@ import "./card.css"
 export default function MediaCard() {
   return (
     <div className="card">
-      <Card sx={{ maxWidth: 345 }}>
+      <Card sx={{ maxWidth:400}}>
         
         <CardContent>
           <img src={Logo} alt="logo"/>
@@ -21,10 +21,10 @@ export default function MediaCard() {
           
         </CardContent>
         <CardActions>
-          <Button>
+          <button className='btn_login'>
               <Login/>
               Entrar
-          </Button>
+          </button>
         </CardActions>
       </Card>
     </div>

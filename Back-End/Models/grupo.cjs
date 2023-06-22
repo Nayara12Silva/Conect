@@ -23,5 +23,6 @@ const grupo = sequelize.define('grupos', {
     }
    
 });
+
 //grupo.sync({force:true});
 module.exports = grupo;
