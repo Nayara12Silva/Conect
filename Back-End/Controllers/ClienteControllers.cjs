@@ -1,6 +1,5 @@
-const User = require('../Models/cliente.cjs');
+const User = require('../Models/usuario.cjs');
 const bcryp = require('bcryptjs');// Data Encryption
-const {response} = require('express');
 
 module.exports ={
     // Function To List All Users
