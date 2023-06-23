@@ -7,10 +7,10 @@ const GruposControllers = require ("../../Back-End/Controllers/GruposControllers
 Rotas.get("/listar",ClienteControllers.index);
 Rotas.post("/add",ClienteControllers.addCliente);
 // Rotas Models Grupos
-Rotas.get("/listarGrupos",GruposControllers.ListGrupos);// Listar todos os produtos
-Rotas.get("/listOneGrupo/:id",GruposControllers.ListOneGrupo);// Listar um produtos pelo id
-Rotas.post("/addGrupo",GruposControllers.AddGrupos);// Adicionar produtos
-Rotas.put("/atualizar/:id",GruposControllers.atualizar);// Atualizar um produtos pelo id
-Rotas.delete("/deletar/:id",GruposControllers.DeleteGrupo);// Deletar um produto pelo id
+Rotas.get("/listarGrupos",GruposControllers.ListGrupos);// Listar todos os grupos
+Rotas.get("/listOneGrupo/:id",GruposControllers.ListOneGrupo);// Listar um grupos pelo id
+Rotas.post("/addGrupo",GruposControllers.AddGrupos);// Adicionar grupos
+Rotas.put("/atualizar/:id",GruposControllers.atualizar);// Atualizar um grupos pelo id
+Rotas.delete("/deletar/:id",GruposControllers.DeleteGrupo);// Deletar um grupos pelo id
 
 module.exports = Rotas

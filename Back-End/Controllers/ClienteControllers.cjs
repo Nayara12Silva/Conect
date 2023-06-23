@@ -26,6 +26,7 @@ module.exports ={
         res.status(400).json({Error:error.mensage})
     }
   },
+  // Função para atualizar as informações cadastrais 
   async atualizar(req, res){
     const Dados = req.body
     Dados.senha = await bcryp.hash(Dados.senha,8);

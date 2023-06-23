@@ -2,7 +2,7 @@ import React from "react";
 import { MenuTop } from "../../Components/Menu";
 import Logo from '../../assets/01.png'
 import './home.css'
-import MediaCard from "../../Components/Card";
+import BasicExample from "../../Components/CardBoot";
 
 export function Home(){
     return(
@@ -13,10 +13,8 @@ export function Home(){
                  <MenuTop />
              </div>
              <div className="content_Cards">
-                 <MediaCard/>
-                 <MediaCard/>
-                 <MediaCard/>
-                
+                 <BasicExample/>
+                              
              </div>
         </div>
         </>
